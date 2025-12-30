@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.3));
+    background-image: url(login_page_background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    border: none;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.93);
+    backdrop-filter: blur(6px);
+}
+.heads {
+    margin-bottom: 25px;
+
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 300;
+    color: #444;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    outline: none;
+    border-color: #4ade80;
+    
+}
+button {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #00a300;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #00a300d1;
+}
+button:active{
+    transform: scale(0.98);
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.checkbox input {
+    width: auto;
+}
+p {
+    margin-top: 15px;
+    color: #555;
+}

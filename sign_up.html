@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    
+    <form class="container">
+        <h1>Create Account</h1>
+        <div class="heads">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter your name"required>
+        </div>
+        <div class="heads">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter email"required>
+        </div>
+        <div class="heads">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="enter password"required minlength="6">
+        </div>
+        <div class="heads">
+            <label for="cnfm_pwd">Confirm Password</label>
+            <input type="password" id="cnfm_pwd" placeholder="Confirm password"required minlength="6">
+         </div>
+         <div class="checkbox">
+            <input type="checkbox" id="terms"required>
+            <label for="terms">I Agree to Terms & conditions</label>
+         </div>
+        <button type="submit">Sign Up</button>
+        <p>Already have an Account? Login.</p>
+    </form>
+</body>
+</html>
