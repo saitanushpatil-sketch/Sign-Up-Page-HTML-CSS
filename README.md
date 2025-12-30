@@ -1,2 +1,9 @@
 # Sign-Up-Page-HTML-CSS
-Built a responsive sign-up form using HTML &amp; CSS with proper spacing, focus states, and clean UI design.
+Sign Up Page – HTML & CSS 
+A clean, responsive sign-up form built using HTML and CSS.
+Features:
+- Proper form structure & labels
+- Input focus states
+- Button hover & active states
+- Flexbox alignment
+- Background image with card UI
